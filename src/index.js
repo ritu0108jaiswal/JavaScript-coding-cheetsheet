@@ -30,7 +30,7 @@ console.log("maxNum:", maxNum);
 
 function moveZeroForward(nums) {
   let result = [];
-  let zeroCount = [];
+  let zeroCount = 0;
   for (let num of nums) {
     if (num === 0) {
       zeroCount++;
